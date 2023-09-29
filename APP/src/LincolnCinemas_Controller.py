@@ -1,7 +1,50 @@
-# Lincoln Cinemas Controller
-# Author: Miao Sang
-# Purpose: To provide a controller for the Lincoln Cinemas application.
-# Date: 28/09/2023
+"""! @brief Lincoln Cinemas program with Doxygen style comments"""
+
+##
+# @mainpage Lincoln Cinemas Application project
+# 
+# @section description_main description
+# an python program that allows users to book tickets for movies at Lincoln Cinemas.
+#
+# @section requirements_main requirements
+# @subsection requirements_functional_main Functional Requirements
+# - The system shall allow users to search for movies based on title, language, genre, and release date.
+# - The system shall allow users to book tickets for a particular screening.
+# - The system shall allow users to cancel their ticket bookings.
+# - The system shall allow users to apply discount coupons to their bookings.
+# - The system shall allow users to pay for their bookings using credit card, debit card, or cash.
+# - The system shall allow users to receive notifications for new movies, bookings, and cancellations.
+# - The system shall allow admins to add new movies.
+# - The system shall allow admins to add new screenings for movies.
+# - The system shall allow admins to cancel screenings.
+# - The system shall allow front desk staff to make ticket bookings for customers.
+# - The system shall allow front desk staff to cancel ticket bookings for customers.
+#
+# @subsection requirements_nonfunctional_main Non-Functional Requirements
+# - The system shall be available 24/7.
+# - The system shall be able to handle 4 concurrent halls.
+# - The system shall be able to handle 400 concurrent seats.
+#
+# @section assumptions_main assumptions
+# - The system will be used by customers, admins, guest, system and front desk staff.
+#
+# @section constraints_main constraints
+# - The system will be developed using Python.
+# - The system will be developed using the MVC architecture.
+# - The system will be developed using the GitHub repository.
+# - The system will be developed using the Doxygen documentation system.
+
+##
+# @file LincolnCinemas_Controller.py
+# @brief This file contains the controller classes for the Lincoln Cinemas application.
+# @details This file contains the controller classes for the Lincoln Cinemas application.
+# @section description_controller description
+# Implementation for Lincoln Cinemas application
+# @section requirements_main requirements
+#
+# @section author_main author
+# - Created by Miao Sang on 29/09/2023
+
 from LincolnCinemas_Model import *
 from typing import List
 

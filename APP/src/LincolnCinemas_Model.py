@@ -2,8 +2,9 @@
 # Author: Miao Sang
 # Purpose: To provide a model for the Lincoln Cinemas application.
 # Date: 28/09/2023
+from abc import ABC, abstractmethod
 
-class User:
+class User(ABC):
     """! Represents a generic user."""
     
     def __init__(self, username: str, password: str) -> None:
